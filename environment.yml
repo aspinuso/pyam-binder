@@ -1,4 +1,4 @@
-name:pyam-binder
+name: pyam-binder
 channels:
   - anaconda
   - conda-forge
