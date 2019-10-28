@@ -4,6 +4,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - pip
   - graphviz
   - pip:
     - apispec==0.39.0
@@ -102,7 +103,6 @@ dependencies:
     - rdflib==4.2.2
     - rdflib-jsonld==0.4.0
     - requests==2.22.0
-    - ruamel-yaml==0.15.71
     - ruamel.yaml==0.15.77
     - scandir==1.10.0
     - schema-salad==4.1.20190305210046
