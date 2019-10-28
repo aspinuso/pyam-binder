@@ -5,7 +5,6 @@ channels:
   - defaults
 dependencies:
   - pip
-  - graphviz
   - pip:
     - apispec==0.39.0
     - appnope==0.1.0
@@ -132,5 +131,6 @@ dependencies:
     - xlrd==1.2.0
     - XlsxWriter==1.2.0
     - yarg==0.1.9
+    - graphviz
 prefix: /anaconda3
 
