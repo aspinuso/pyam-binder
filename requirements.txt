@@ -4,7 +4,6 @@ asn1crypto==0.24.0
 attrs==19.1.0
 backcall==0.1.0
 bagit==1.7.0
-basemap==1.2.0
 beautifulsoup4==4.7.1
 bleach==3.1.0
 CacheControl==0.11.7
