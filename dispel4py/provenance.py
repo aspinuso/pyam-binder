@@ -1930,7 +1930,9 @@ def injectProv(object, provType, active=True,componentsType=None, workflow={},**
     
     if isinstance(object, WorkflowGraph):
         object.flatten()
+        workflow={}
         nodelist = object.getContainedObjects()
+        
         for x in nodelist:
             injectProv(x, provType, componentsType=componentsType, workflow=workflow,**kwargs)
     else:
