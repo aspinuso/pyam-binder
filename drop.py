@@ -6,7 +6,7 @@ import dropbox
  
 def uploadToDrop(source,destination,token):
     dbx = dropbox.Dropbox(token)
-    with open("output.png", 'rb') as f:
+    with open(source, 'rb') as f:
       # We use WriteMode=overwrite to make sure that the settings in the file
       # are changed on upload
         print("Uploading  to Dropbox as " + destination + "...")
